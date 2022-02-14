@@ -1,0 +1,167 @@
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+body{
+
+
+    padding-left:30px;
+    padding-right: 30px;
+color: white;
+background-color: black;
+}
+
+h1{
+color: blueviolet;
+
+
+}
+
+/* Menu pogai */
+.menu-btn {
+margin: 0;
+padding: 0;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+cursor: pointer;
+transition: all .5s ease-in-out;
+}
+
+.menu-btn-burger{
+width: 25px;
+height: 2px;
+background: #fff;
+margin-top:2px;
+margin-bottom: 2px;
+transition: all .5s ease-in-out;
+}
+
+.menu-btn-burger::before,
+.menu-btn-burger::after{
+content: '';
+position: absolute;
+width: 25px;
+height: 2px;
+background: #fff;
+transition: all .5s ease-in-out;
+
+}
+
+.menu-btn-burger::before{
+transform: translateY(-16px);
+}
+
+.menu-btn-burger::after{
+transform: translateY(16px);
+}
+
+/* ANIMATION */
+
+.menu-btn.open .menu-btn-burger {
+transform: translateX(-50px);
+background: transparent;
+}
+
+.menu-btn.open .menu-btn-burger::before {
+transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .menu-btn-burger::after {
+transform: rotate(-45deg) translate(35px, 35px);
+}
+
+.menu-list{
+    display: flex;
+
+}
+
+li{
+
+    margin-right: 15px;
+}
+
+.ieslegts{
+
+    display: block;
+}
+
+.poga{
+
+    display:flex;
+    flex-direction:row;
+}
+
+header{
+    display: flex;
+    background-color: rgb(44, 2, 73);
+}
+
+.logo{
+
+    width: 100px;
+}
+
+nav{
+
+    display: flex;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.login-body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.loginForm{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    background-color: gray;
+    padding: 20px;
+}
+
+.text-banner{
+width: 100%;
+background-color: rgb(92, 13, 13);
+}
+
+#total-war{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(92, 13, 13);
+}
+
+
+.img-banner{
+width: 40%;
+padding: 0;
+}
+
+#image{
+   width: 300px; 
+   height: auto;    
+    margin: 0;
+}
+
+.img-banner a{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
