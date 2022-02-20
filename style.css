@@ -199,3 +199,53 @@ article{
 article img{
     width:200px ;
 }
+
+.games-released{
+background-color: brown;
+padding: 10px;
+
+}
+
+.games-released h1{
+    color: #fff;
+}
+
+.games-released a{
+    background-color: #4b4545;
+    padding: 10px;
+    margin: 5px;
+}
+
+.list-container{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+tr:nth-child(odd){
+    background-color: #4b4545;
+}
+
+table{
+    margin-top: 30px;
+}
+
+.search-reviews{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-box button{
+    background-color: #d13b3b;
+}
